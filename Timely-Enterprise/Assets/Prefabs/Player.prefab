@@ -9,9 +9,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 473494}
   - 212: {fileID: 21217858}
-  - 114: {fileID: 11488626}
   - 50: {fileID: 5024646}
   - 58: {fileID: 5869556}
+  - 114: {fileID: 11466452}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -62,7 +62,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &11488626
+--- !u!114 &11466452
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
