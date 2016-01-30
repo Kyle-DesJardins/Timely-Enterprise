@@ -99,7 +99,6 @@ GameObject:
   - 114: {fileID: 1607669617}
   - 114: {fileID: 1607669618}
   - 114: {fileID: 1607669619}
-  - 114: {fileID: 1607669620}
   m_Layer: 0
   m_Name: Love
   m_TagString: Untagged
@@ -212,18 +211,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 5
---- !u!114 &1607669620
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1607669612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fe4a4ac066b78141b70b3e4f5897506, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  path: 546578742f4a6f75726e616c5f54657874
 --- !u!1 &2044307583
 GameObject:
   m_ObjectHideFlags: 0
