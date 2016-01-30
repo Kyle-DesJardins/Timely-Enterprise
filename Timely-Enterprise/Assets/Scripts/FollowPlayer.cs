@@ -17,7 +17,7 @@ public class FollowPlayer : MonoBehaviour {
 	}
 
 	void FixedUpdate () {
-		
+
 		if(Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift)) {
 			dampening = 0.25f;
 		}
