@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Levels>
+	<Level>
+		<Entry>
+			<BeginningText>stuffs</BeginningText>
+			<EndText>Hi</Text>
+		</Entry>
+		<Entry>
+			<BeginningText></BeginningText>
+			<EndText></EndText>
+		<Entry>
+	</Level>
+</Levels>
