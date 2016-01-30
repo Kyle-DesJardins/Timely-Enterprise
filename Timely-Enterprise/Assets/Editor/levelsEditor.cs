@@ -1,7 +1,5 @@
-﻿using UnityEngine;
-using UnityEditor;
+﻿using UnityEditor;
 using UnityEditor.SceneManagement;
-using System.Collections;
 
 public class levelsEditor : Editor {
 
