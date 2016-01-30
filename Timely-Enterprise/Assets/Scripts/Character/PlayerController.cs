@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class FollowPlayer : MonoBehaviour {
+public class Playercontroller: MonoBehaviour {
 
 	private float dampening;
 	[SerializeField]
