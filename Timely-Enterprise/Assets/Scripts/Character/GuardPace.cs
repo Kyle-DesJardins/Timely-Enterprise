@@ -11,6 +11,7 @@ public class GuardPace : MonoBehaviour {
 
 	void Start () {
 		turned = false;
+		Physics2D.IgnoreCollision(GetComponent<Collider2D>(), GetComponent<Collider2D>());
 	}
 
 	void FixedUpdate () {

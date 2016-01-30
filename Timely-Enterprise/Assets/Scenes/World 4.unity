@@ -85,6 +85,21 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &861539803 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 119002, guid: 5d38d12af1f1545579f432c034baea5c, type: 2}
+  m_PrefabInternal: {fileID: 2081908519}
+--- !u!114 &861539808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 861539803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c25bb79cbd38a48549f5f3defebbf328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &988971283
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,11 +250,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 473494, guid: cb14c658c942c42e18bd03fc9b95bf61, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.06
+      value: 13.74
       objectReference: {fileID: 0}
     - target: {fileID: 473494, guid: cb14c658c942c42e18bd03fc9b95bf61, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -2.75
+      value: -2.51
       objectReference: {fileID: 0}
     - target: {fileID: 473494, guid: cb14c658c942c42e18bd03fc9b95bf61, type: 2}
       propertyPath: m_LocalPosition.z
@@ -334,8 +349,16 @@ Prefab:
     - target: {fileID: 21266356, guid: 5d38d12af1f1545579f432c034baea5c, type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 01e4f6a67443747029273173889ad05d,
+      objectReference: {fileID: 21300000, guid: 6fbc5429d3da94f9ca11ff990d0b7b9a,
         type: 3}
+    - target: {fileID: 477538, guid: 5d38d12af1f1545579f432c034baea5c, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0.002970096
+      objectReference: {fileID: 0}
+    - target: {fileID: 477538, guid: 5d38d12af1f1545579f432c034baea5c, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999956
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d38d12af1f1545579f432c034baea5c, type: 2}
   m_IsPrefabParent: 0
