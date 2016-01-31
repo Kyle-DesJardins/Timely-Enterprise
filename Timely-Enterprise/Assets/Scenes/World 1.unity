@@ -2048,6 +2048,11 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!224 &683469334 stripped
+RectTransform:
+  m_PrefabParentObject: {fileID: 22456782, guid: 9c8de9869dd84f042bff8ad7cb034063,
+    type: 2}
+  m_PrefabInternal: {fileID: 1057618907}
 --- !u!1 &690566306
 GameObject:
   m_ObjectHideFlags: 0
@@ -2916,6 +2921,96 @@ MonoBehaviour:
   moveUp: 0
   speed: 5
   heightChange: 8.4
+--- !u!1001 &1057618907
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1652302217}
+    m_Modifications:
+    - target: {fileID: 22456782, guid: 9c8de9869dd84f042bff8ad7cb034063, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22456782, guid: 9c8de9869dd84f042bff8ad7cb034063, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22456782, guid: 9c8de9869dd84f042bff8ad7cb034063, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22456782, guid: 9c8de9869dd84f042bff8ad7cb034063, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22456782, guid: 9c8de9869dd84f042bff8ad7cb034063, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22456782, guid: 9c8de9869dd84f042bff8ad7cb034063, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22456782, guid: 9c8de9869dd84f042bff8ad7cb034063, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22456782, guid: 9c8de9869dd84f042bff8ad7cb034063, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22456782, guid: 9c8de9869dd84f042bff8ad7cb034063, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 580
+      objectReference: {fileID: 0}
+    - target: {fileID: 22456782, guid: 9c8de9869dd84f042bff8ad7cb034063, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 309.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 22456782, guid: 9c8de9869dd84f042bff8ad7cb034063, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 75.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 22456782, guid: 9c8de9869dd84f042bff8ad7cb034063, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 71
+      objectReference: {fileID: 0}
+    - target: {fileID: 22456782, guid: 9c8de9869dd84f042bff8ad7cb034063, type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22456782, guid: 9c8de9869dd84f042bff8ad7cb034063, type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22456782, guid: 9c8de9869dd84f042bff8ad7cb034063, type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22456782, guid: 9c8de9869dd84f042bff8ad7cb034063, type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22456782, guid: 9c8de9869dd84f042bff8ad7cb034063, type: 2}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22456782, guid: 9c8de9869dd84f042bff8ad7cb034063, type: 2}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11426932, guid: 9c8de9869dd84f042bff8ad7cb034063, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1652302218}
+    - target: {fileID: 11426932, guid: 9c8de9869dd84f042bff8ad7cb034063, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ToggleJounal
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 9c8de9869dd84f042bff8ad7cb034063, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1084495622
 GameObject:
   m_ObjectHideFlags: 0
@@ -5135,6 +5230,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 317940507}
+  - {fileID: 683469334}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_AnchorMin: {x: 0, y: 0}

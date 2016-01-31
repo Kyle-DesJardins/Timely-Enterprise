@@ -7,6 +7,7 @@ public class PopulateJournalData : MonoBehaviour {
     private LoadJournalData loadJournalDataScript;
     private int currentEntry;
     private int currentJournal;
+    private bool isOpen = false;
 
 
     [SerializeField]
@@ -65,14 +66,19 @@ public class PopulateJournalData : MonoBehaviour {
         page.SetActive(false);
     }
 
-    public void OpenJournal()
+    public void ToggleJounal()
     {
-        page.SetActive(true);
-    }
+        if(isOpen)
+        {
+            isOpen = false;
+            page.SetActive(false);
+        }
+        else
+        {
+            isOpen = true;
+            page.SetActive(true);
+        }
 
-    public void CloseJournal()
-    {
-        page.SetActive(false);
     }
 
     public void NextJournalPage()
