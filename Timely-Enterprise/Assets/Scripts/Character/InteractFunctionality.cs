@@ -9,12 +9,17 @@ public class InteractFunctionality : MonoBehaviour {
     [HideInInspector]
     public string interactableTag;
 
+    [SerializeField]
 	private bool interacte;
 	private bool animate;
 	private Renderer render;
 	private Collider2D collider;
 	private Rigidbody2D rigidbody;
+    [SerializeField]
 	private Collider2D animateCollider;
+	private float teleporting;
+	private GameObject camera;
+	private float speed = 1;
 
 	private bool animating;
 	private float animTimer;
@@ -25,11 +30,14 @@ public class InteractFunctionality : MonoBehaviour {
 		collider = gameObject.GetComponent<Collider2D>();
 		rigidbody = gameObject.GetComponent<Rigidbody2D>();
 		animating = false;
-	}
+        camera = GameObject.Find("Main Camera");
+        //smooth = 0;
+    }
 
     void Update()
     {
-        if (Input.GetKeyDown(customKeyCode) && interacte == true)
+		interactableTag = (animateCollider.gameObject.tag);
+		if (Input.GetKeyDown(customKeyCode) && interacte == true && ((interactableTag == "Door")))
         {
             Debug.Log(transform.name + animateCollider + " Interact");
 			animating = true;
@@ -55,6 +63,26 @@ public class InteractFunctionality : MonoBehaviour {
 				animateCollider.GetComponent<Animator>().SetInteger("Open", 0);
 			}
 		}
+
+		if((interactableTag == "Stair") && interacte == true && Input.GetKeyDown(customKeyCode) && !camera.GetComponent<CameraMovement>().moveUp) {
+            if (animateCollider.gameObject.GetComponent<StairProperties>().getBottom())
+            {
+                transform.position = new Vector3(transform.position.x, transform.position.y + 10.4f, transform.position.z);
+                camera.GetComponent<CameraMovement>().setTargetMovement(true);
+                camera.GetComponent<CameraMovement>().moveUp = true;
+            }
+            else
+            {
+                transform.position = new Vector3(transform.position.x, transform.position.y - 10.4f, transform.position.z);
+                camera.GetComponent<CameraMovement>().setTargetMovement(false);
+                camera.GetComponent<CameraMovement>().moveUp = true;
+            }
+		}
+    }
+
+    public void SetInteracteToPositive()
+    {
+        interacte = true;
     }
 
 
