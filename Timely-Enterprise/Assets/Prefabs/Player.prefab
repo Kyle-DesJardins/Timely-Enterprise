@@ -1,5 +1,20 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &163672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 489128}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &169864
 GameObject:
   m_ObjectHideFlags: 0
@@ -14,6 +29,7 @@ GameObject:
   - 114: {fileID: 11486044}
   - 60: {fileID: 6054144}
   - 95: {fileID: 9508582}
+  - 114: {fileID: 11422920}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -30,8 +46,21 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.61, y: -2.19, z: 90}
   m_LocalScale: {x: 0.37, y: 0.37, z: 0.37}
-  m_Children: []
+  m_Children:
+  - {fileID: 489128}
   m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &489128
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163672}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 473494}
   m_RootOrder: 0
 --- !u!50 &5024646
 Rigidbody2D:
@@ -231,6 +260,20 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11422920
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0724e868e0ca88b4f9ba8b0f3eec7391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customKeyCode: 
+  hittableTag: 
+  punchDetect: {fileID: 0}
 --- !u!114 &11466452
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -256,6 +299,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   customKeyCode: e
   interactableTag: Interactable
+  interacte: 0
+  animateCollider: {fileID: 0}
+  heightChange: 0
 --- !u!212 &21217858
 SpriteRenderer:
   m_ObjectHideFlags: 1
