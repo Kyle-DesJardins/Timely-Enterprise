@@ -676,7 +676,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0a59eda2add50435a8615bbfb3d990b7, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f995650a53e0f4d92b055d42bfbb9760, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -765,7 +765,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   music: {fileID: 751977470}
-  audio1: {fileID: 8300000, guid: 0a59eda2add50435a8615bbfb3d990b7, type: 3}
+  audio:
+  - {fileID: 8300000, guid: f995650a53e0f4d92b055d42bfbb9760, type: 3}
+  - {fileID: 8300000, guid: 0a59eda2add50435a8615bbfb3d990b7, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 0204c3987a6534d1d83833d70aab69ce, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: f995650a53e0f4d92b055d42bfbb9760, type: 3}
+  - {fileID: 0}
   slider: {fileID: 402467915}
 --- !u!1 &1058491639
 GameObject:

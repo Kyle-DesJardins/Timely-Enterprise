@@ -526,6 +526,7 @@ GameObject:
   - 61: {fileID: 1113502717}
   - 114: {fileID: 1113502716}
   - 114: {fileID: 1113502715}
+  - 95: {fileID: 1113502719}
   m_Layer: 0
   m_Name: Stairbottom (1)
   m_TagString: Stair
@@ -617,6 +618,23 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!95 &1113502719
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1113502713}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fcf14771a07b44d04a85078fec19b781, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1129253550
 GameObject:
   m_ObjectHideFlags: 0
@@ -738,6 +756,7 @@ GameObject:
   - 61: {fileID: 1476773880}
   - 114: {fileID: 1476773879}
   - 114: {fileID: 1476773878}
+  - 95: {fileID: 1476773882}
   m_Layer: 0
   m_Name: StairTop (1)
   m_TagString: Stair
@@ -829,6 +848,23 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!95 &1476773882
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1476773876}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fcf14771a07b44d04a85078fec19b781, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!4 &1556357056 stripped
 Transform:
   m_PrefabParentObject: {fileID: 402396, guid: 5d38d12af1f1545579f432c034baea5c, type: 2}

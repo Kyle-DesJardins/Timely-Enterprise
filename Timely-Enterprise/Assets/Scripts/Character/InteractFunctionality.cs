@@ -18,7 +18,7 @@ public class InteractFunctionality : MonoBehaviour {
     [SerializeField]
 	private Collider2D animateCollider;
     [SerializeField]
-    private float heightChange;
+	private float heightChange = 8.4f;
 	private float teleporting;
 	private GameObject camera;
 	private float speed = 1;
