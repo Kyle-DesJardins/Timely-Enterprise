@@ -11,13 +11,23 @@ public class AudioControllers : MonoBehaviour {
 	private AudioClip[] audio;
 	[SerializeField]
 	private Scrollbar slider;
+
+	[SerializeField]
+	private AudioSource sfx;
+	[SerializeField]
+	private Scrollbar sliderSFX;
 	private float sliderValue;
 
 	void Awake() {
 //		music.clip = audio[0];
 		slider.value = 1f;
+		sliderSFX.value = 1f;
 		slider.onValueChanged.AddListener(ControlVolume);
-		//slider = volumeLevel.GetComponent<Slider>();
+		sliderSFX.onValueChanged.AddListener(ControlSFX);
+	}
+
+	void OnHit() {
+		music.clip = audio[11];
 	}
 
 	void OnLevelWasLoaded(int level) {
@@ -29,5 +39,10 @@ public class AudioControllers : MonoBehaviour {
 	private void ControlVolume (float value) {
 		sliderValue = slider.value;
 		music.volume = sliderValue;
+	}
+
+	private void ControlSFX(float value) {
+		sliderValue = slider.value;
+		sfx.volume = sliderValue;
 	}
 }
