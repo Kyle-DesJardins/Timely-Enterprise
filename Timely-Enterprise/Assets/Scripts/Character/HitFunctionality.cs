@@ -9,12 +9,24 @@ public class HitFunctionality : MonoBehaviour {
     [HideInInspector]
     public string hittableTag;
 
+    private Animator animator;
+
+    void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
+
     void Update()
     {
-        if(Input.GetKeyDown(customKeyCode))
+        if (Input.GetKeyDown(customKeyCode))
         {
-            Debug.Log(transform.name + " Hit");
+            animator.SetTrigger("Punch");
         }
+    }
+
+    public void punch()
+    {
+        Debug.Log("Hit Test");
     }
 
 }
