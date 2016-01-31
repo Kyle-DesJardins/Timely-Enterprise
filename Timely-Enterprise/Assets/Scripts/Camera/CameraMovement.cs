@@ -40,14 +40,28 @@ public class CameraMovement : MonoBehaviour {
 			transform.position = Vector3.MoveTowards(transform.position, targetMovement, step);
             if (transform.position.y >= pastPosition.y + heightChange)
             {
+                player.GetComponent<InteractFunctionality>().SetInteracteToPositive();
+                moveUp = false;
+            }
+            else if(transform.position.y <= pastPosition.y - heightChange)
+            {
+                player.GetComponent<InteractFunctionality>().SetInteracteToPositive();
                 moveUp = false;
             }
 		}
 	}
 
-    public void setTargetMovement()
+    public void setTargetMovement(bool bottom)
     {
-        targetMovement = transform.position + new Vector3(0, heightChange, 0);
-        pastPosition = transform.position;
+        if(bottom)
+        {
+            targetMovement = transform.position + new Vector3(0, heightChange, 0);
+            pastPosition = transform.position;
+        }
+        else
+        {
+            targetMovement = transform.position - new Vector3(0, heightChange, 0);
+            pastPosition = transform.position;
+        }
     }
 }
