@@ -262,8 +262,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1893546920}
   moveUp: 0
-  speed: 0
-  heightChange: 0
+  speed: 5
+  heightChange: 8.4
 --- !u!1001 &1893546919
 Prefab:
   m_ObjectHideFlags: 0
