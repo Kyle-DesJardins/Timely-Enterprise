@@ -259,12 +259,12 @@ Prefab:
     - target: {fileID: 21204604, guid: 5d38d12af1f1545579f432c034baea5c, type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: ddb0aa5046aad4f12aed9efaf50ff989,
+      objectReference: {fileID: 21300000, guid: 5040c36b0d15c4455a8f2cd3ccae464a,
         type: 3}
     - target: {fileID: 21242992, guid: 5d38d12af1f1545579f432c034baea5c, type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: ddb0aa5046aad4f12aed9efaf50ff989,
+      objectReference: {fileID: 21300000, guid: 04dc93e3775ce4a6fb379f114ef6f084,
         type: 3}
     - target: {fileID: 6154816, guid: 5d38d12af1f1545579f432c034baea5c, type: 2}
       propertyPath: m_Offset.x
