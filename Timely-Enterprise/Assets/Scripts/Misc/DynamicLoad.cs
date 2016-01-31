@@ -7,9 +7,11 @@ public class DynamicLoad : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		gameObject.GetComponent<Animator>().SetInteger("Level", SceneManager.GetActiveScene().buildIndex);
-		if (SceneManager.GetActiveScene().buildIndex == 6) {
-			gameObject.GetComponent<Animator>().SetInteger("Level", 4);
+		if(gameObject.tag != "Stair") {
+			gameObject.GetComponent<Animator>().SetInteger("Level", SceneManager.GetActiveScene().buildIndex);
+			if (SceneManager.GetActiveScene().buildIndex == 6) {
+				gameObject.GetComponent<Animator>().SetInteger("Level", 4);
+			}
 		}
 	}
 	

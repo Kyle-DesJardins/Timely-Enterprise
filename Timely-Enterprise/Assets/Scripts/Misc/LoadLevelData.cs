@@ -9,18 +9,18 @@ public class LoadLevelData : MonoBehaviour {
     private LevelCollection lc;
 
 
-    void Start()
+    void Awake()
     {
         lc = LevelCollection.Load(path);
     }
 
     public string GetBeginningText(int level)
     {
-        return lc.entries[level].BeginningText;
+        return lc.entries[level-1].BeginningText;
     }
 
     public string GetEndingText(int level)
     {
-        return lc.entries[level].EndText;
+        return lc.entries[level-1].EndText;
     }
 }

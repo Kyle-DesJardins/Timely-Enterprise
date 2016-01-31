@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: 24b9c594c4aef49b68032b1e748b85d4
+timeCreated: 1454277499
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ren-male-walkcycle_0
+    21300002: ren-male-walkcycle_1
+    21300004: ren-male-walkcycle_2
+    21300006: ren-male-walkcycle_3
+    21300008: ren-male-walkcycle_4
+    21300010: ren-male-walkcycle_5
+    21300012: ren-male-walkcycle_6
+    21300014: ren-male-walkcycle_7
+    21300016: ren-male-walkcycle_8
+    21300018: ren-male-walkcycle_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ren-male-walkcycle_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 0
+        width: 312
+        height: 964
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.74257, y: 242.5}
+        - {x: -36.25743, y: 242.5}
+        - {x: -50.25743, y: 196.5}
+        - {x: -52.25743, y: 2.5}
+        - {x: -43.25743, y: -3.5}
+        - {x: -32.25743, y: -4.5}
+        - {x: -25.257431, y: 6.5}
+        - {x: -21.257431, y: 14.5}
+        - {x: -20.257431, y: 17.5}
+        - {x: -20.257431, y: 28.5}
+        - {x: -11.257431, y: 54.5}
+        - {x: -55.25743, y: -131.5}
+        - {x: -78.25743, y: -232.5}
+        - {x: -78.25743, y: -242.5}
+        - {x: 79.74257, y: -242.5}
+        - {x: 79.74257, y: 167.5}
+        - {x: 72.74257, y: 217.5}
+    - name: ren-male-walkcycle_1
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 312
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.56595, y: 62.5}
+        - {x: 59.56595, y: 75.5}
+        - {x: 66.56595, y: 140.5}
+        - {x: 37.56595, y: 172.5}
+        - {x: 45.56595, y: 201.5}
+        - {x: 43.56595, y: 229.5}
+        - {x: 32.56595, y: 241.5}
+        - {x: -32.43405, y: 241.5}
+        - {x: -50.43405, y: 193.5}
+        - {x: -28.434052, y: 146.5}
+        - {x: -26.434052, y: 70.5}
+        - {x: -42.43405, y: 9.5}
+        - {x: -36.43405, y: -24.5}
+        - {x: -78.43405, y: -234.5}
+        - {x: -78.43405, y: -241.5}
+        - {x: 79.56595, y: -241.5}
+        - {x: 79.56595, y: -208.5}
+        - {x: 66.56595, y: -29.5}
+    - name: ren-male-walkcycle_2
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 0
+        width: 312
+        height: 963
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.32791, y: 122.5}
+        - {x: 36.32791, y: 173.5}
+        - {x: 46.32791, y: 203.5}
+        - {x: 46.32791, y: 225.5}
+        - {x: 32.32791, y: 242.5}
+        - {x: -27.672089, y: 242.5}
+        - {x: -47.67209, y: 209.5}
+        - {x: -41.67209, y: 190.5}
+        - {x: -28.672089, y: 142.5}
+        - {x: -23.672089, y: 74.5}
+        - {x: -27.672089, y: -3.5}
+        - {x: -78.67209, y: -232.5}
+        - {x: -78.67209, y: -242.5}
+        - {x: 79.32791, y: -242.5}
+        - {x: 79.32791, y: -226.5}
+        - {x: 74.32791, y: -180.5}
+        - {x: 61.32791, y: 0.5}
+        - {x: 64.32791, y: 58.5}
+    - name: ren-male-walkcycle_3
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 0
+        width: 312
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.59906, y: 73.5}
+        - {x: 58.59906, y: 125.5}
+        - {x: 50.59906, y: 150.5}
+        - {x: 26.59906, y: 171.5}
+        - {x: 53.59906, y: 198.5}
+        - {x: 35.59906, y: 241.5}
+        - {x: -32.40094, y: 241.5}
+        - {x: -48.40094, y: 198.5}
+        - {x: -43.40094, y: 192.5}
+        - {x: -23.40094, y: 97.5}
+        - {x: -31.40094, y: 2.5}
+        - {x: -33.40094, y: -36.5}
+        - {x: -75.40094, y: -215.5}
+        - {x: -78.40094, y: -233.5}
+        - {x: -78.40094, y: -241.5}
+        - {x: 79.59906, y: -241.5}
+        - {x: 79.59906, y: -221.5}
+        - {x: 63.59906, y: -16.5}
+    - name: ren-male-walkcycle_4
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 0
+        width: 314
+        height: 955
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.873352, y: 144.5}
+        - {x: 31.873352, y: 172.5}
+        - {x: 53.873352, y: 198.5}
+        - {x: 34.873352, y: 240.5}
+        - {x: -36.126648, y: 240.5}
+        - {x: -44.126648, y: 207.5}
+        - {x: -47.126648, y: 193.5}
+        - {x: -41.126648, y: 191.5}
+        - {x: -21.126648, y: 74.5}
+        - {x: -46.126648, y: 39.5}
+        - {x: -50.126648, y: 25.5}
+        - {x: -52.126648, y: 17.5}
+        - {x: -42.126648, y: 0.5}
+        - {x: -79.12665, y: -227.5}
+        - {x: -79.12665, y: -240.5}
+        - {x: 79.87335, y: -240.5}
+        - {x: 79.87335, y: -223.5}
+        - {x: 65.87335, y: -72.5}
+        - {x: 79.87335, y: -0.5}
+        - {x: 79.87335, y: 41.5}
+    - name: ren-male-walkcycle_5
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 0
+        width: 312
+        height: 964
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.64453, y: 160.5}
+        - {x: 41.64453, y: 205.5}
+        - {x: 38.64453, y: 230.5}
+        - {x: 24.644531, y: 242.5}
+        - {x: -35.35547, y: 242.5}
+        - {x: -49.35547, y: 196.5}
+        - {x: -26.355469, y: 164.5}
+        - {x: -31.355469, y: 138.5}
+        - {x: -17.355469, y: 46.5}
+        - {x: -33.35547, y: 31.5}
+        - {x: -42.35547, y: -49.5}
+        - {x: -78.35547, y: -233.5}
+        - {x: -78.35547, y: -242.5}
+        - {x: 79.64453, y: -242.5}
+        - {x: 79.64453, y: -225.5}
+        - {x: 58.64453, y: 57.5}
+        - {x: 62.64453, y: 59.5}
+        - {x: 57.64453, y: 142.5}
+    - name: ren-male-walkcycle_6
+      rect:
+        serializedVersion: 2
+        x: 2551
+        y: 0
+        width: 312
+        height: 964
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57.332764, y: 67.5}
+        - {x: 51.332764, y: 127.5}
+        - {x: 40.332764, y: 150.5}
+        - {x: 23.332764, y: 175.5}
+        - {x: 40.332764, y: 206.5}
+        - {x: 37.332764, y: 231.5}
+        - {x: 24.332764, y: 242.5}
+        - {x: -35.667236, y: 242.5}
+        - {x: -50.667236, y: 197.5}
+        - {x: -19.667236, y: 157.5}
+        - {x: -34.667236, y: 143.5}
+        - {x: -27.667236, y: 20.5}
+        - {x: -52.667236, y: -109.5}
+        - {x: -78.66724, y: -234.5}
+        - {x: -78.66724, y: -242.5}
+        - {x: 79.33276, y: -242.5}
+        - {x: 79.33276, y: -230.5}
+        - {x: 70.33276, y: -147.5}
+    - name: ren-male-walkcycle_7
+      rect:
+        serializedVersion: 2
+        x: 2931
+        y: 0
+        width: 306
+        height: 963
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.99951, y: 134.5}
+        - {x: 32.99951, y: 158.5}
+        - {x: 44.99951, y: 201.5}
+        - {x: 43.99951, y: 216.5}
+        - {x: 40.99951, y: 228.5}
+        - {x: 27.999512, y: 242.5}
+        - {x: -31.000488, y: 242.5}
+        - {x: -44.00049, y: 204.5}
+        - {x: -43.00049, y: 193.5}
+        - {x: -13.000488, y: 154.5}
+        - {x: -26.000488, y: 144.5}
+        - {x: -36.00049, y: -3.5}
+        - {x: -26.000488, y: -8.5}
+        - {x: -77.00049, y: -232.5}
+        - {x: -77.00049, y: -242.5}
+        - {x: 77.99951, y: -242.5}
+        - {x: 77.99951, y: -201.5}
+        - {x: 62.99951, y: 69.5}
+    - name: ren-male-walkcycle_8
+      rect:
+        serializedVersion: 2
+        x: 3301
+        y: 0
+        width: 310
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 79.13562, y: 10.5}
+        - {x: 75.13562, y: 31.5}
+        - {x: 62.13562, y: 72.5}
+        - {x: 57.13562, y: 146.5}
+        - {x: 29.13562, y: 172.5}
+        - {x: 41.13562, y: 200.5}
+        - {x: 38.13562, y: 229.5}
+        - {x: 26.13562, y: 241.5}
+        - {x: -34.86438, y: 241.5}
+        - {x: -48.86438, y: 194.5}
+        - {x: -25.86438, y: 149.5}
+        - {x: -31.86438, y: 78.5}
+        - {x: -59.86438, y: 25.5}
+        - {x: -46.86438, y: -11.5}
+        - {x: -60.86438, y: -114.5}
+        - {x: -77.86438, y: -220.5}
+        - {x: -77.86438, y: -241.5}
+        - {x: 79.13562, y: -241.5}
+        - {x: 79.13562, y: -214.5}
+        - {x: 64.13562, y: -16.5}
+        - {x: 79.13562, y: -2.5}
+    - name: ren-male-walkcycle_9
+      rect:
+        serializedVersion: 2
+        x: 3692
+        y: 0
+        width: 348
+        height: 963
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 88.33618, y: 24.5}
+        - {x: 85.33618, y: 32.5}
+        - {x: 42.33618, y: 148.5}
+        - {x: 20.336182, y: 166.5}
+        - {x: 37.33618, y: 233.5}
+        - {x: 16.336182, y: 242.5}
+        - {x: -46.66382, y: 242.5}
+        - {x: -60.66382, y: 195.5}
+        - {x: -51.66382, y: 79.5}
+        - {x: -72.66382, y: 36.5}
+        - {x: -78.66382, y: 17.5}
+        - {x: -80.66382, y: 10.5}
+        - {x: -71.66382, y: -2.5}
+        - {x: -47.66382, y: 5.5}
+        - {x: -66.66382, y: -86.5}
+        - {x: -87.66382, y: -228.5}
+        - {x: -87.66382, y: -242.5}
+        - {x: 74.33618, y: -242.5}
+        - {x: 54.33618, y: 10.5}
+        - {x: 70.33618, y: -3.5}
+        - {x: 88.33618, y: 3.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
