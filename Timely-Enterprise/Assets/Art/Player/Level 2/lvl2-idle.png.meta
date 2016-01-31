@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: b23b18165d22a4e298dc65b201abe90f
-timeCreated: 1454277914
+guid: 40dc8ddc580c245adad82c1915e20a81
+timeCreated: 1454277600
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: lvl5-idle_0
-    21300002: lvl5-idle_1
-    21300004: lvl5-idle_2
-    21300006: lvl5-idle_3
+    21300000: lvl2-idle_0
+    21300002: lvl2-idle_1
+    21300004: lvl2-idle_2
+    21300006: lvl2-idle_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -54,7 +54,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: lvl5-idle_0
+    - name: lvl2-idle_0
       rect:
         serializedVersion: 2
         x: 76
@@ -133,7 +133,7 @@ TextureImporter:
         - {x: 149, y: -461}
         - {x: 149, y: -431}
         - {x: 148, y: -421}
-    - name: lvl5-idle_1
+    - name: lvl2-idle_1
       rect:
         serializedVersion: 2
         x: 467
@@ -213,7 +213,7 @@ TextureImporter:
         - {x: 149, y: -459}
         - {x: 149, y: -438}
         - {x: 147, y: -421}
-    - name: lvl5-idle_2
+    - name: lvl2-idle_2
       rect:
         serializedVersion: 2
         x: 839
@@ -295,7 +295,7 @@ TextureImporter:
         - {x: 134, y: -459}
         - {x: 134, y: -455}
         - {x: 128, y: -404}
-    - name: lvl5-idle_3
+    - name: lvl2-idle_3
       rect:
         serializedVersion: 2
         x: 1236
