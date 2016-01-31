@@ -3,11 +3,11 @@
 	<Level>
 		<Entry>
 			<BeginningText>stuffs</BeginningText>
-			<EndText>Hi</Text>
+			<EndText>Hi</EndText>
 		</Entry>
 		<Entry>
 			<BeginningText></BeginningText>
 			<EndText></EndText>
-		<Entry>
+		</Entry>
 	</Level>
 </Levels>
