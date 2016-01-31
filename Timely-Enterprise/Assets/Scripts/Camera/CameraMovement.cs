@@ -10,11 +10,11 @@ public class CameraMovement : MonoBehaviour {
 	public bool moveUp;
 	private float step;
 	[SerializeField]
-	private float speed;
+	private float speed = 5f;
     private Vector3 targetMovement;
     private Vector3 pastPosition;
     [SerializeField]
-    private float heightChange;
+    private float heightChange = 8.4f;
 
 	void awake() {
 		moveUp = false;

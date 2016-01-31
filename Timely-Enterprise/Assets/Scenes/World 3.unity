@@ -118,8 +118,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 2120410396}
   moveUp: 0
-  speed: 0
-  heightChange: 0
+  speed: 5
+  heightChange: 8.4
 --- !u!81 &1005860781
 AudioListener:
   m_ObjectHideFlags: 0
@@ -367,6 +367,48 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 402396, guid: 5d38d12af1f1545579f432c034baea5c, type: 2}
   m_PrefabInternal: {fileID: 1049877742}
+--- !u!1 &1049877744 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 139068, guid: 5d38d12af1f1545579f432c034baea5c, type: 2}
+  m_PrefabInternal: {fileID: 1049877742}
+--- !u!1 &1049877745 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 105536, guid: 5d38d12af1f1545579f432c034baea5c, type: 2}
+  m_PrefabInternal: {fileID: 1049877742}
+--- !u!95 &1049877746
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1049877744}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fcf14771a07b44d04a85078fec19b781, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!95 &1049877747
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1049877745}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fcf14771a07b44d04a85078fec19b781, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1001 &1384582694
 Prefab:
   m_ObjectHideFlags: 0
@@ -406,6 +448,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 21274160, guid: 988cbc34b4fb0452eab8b73af692b218, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 15512adff4e324910a34191469ccbc12,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 988cbc34b4fb0452eab8b73af692b218, type: 2}
   m_IsPrefabParent: 0
@@ -447,6 +494,10 @@ Prefab:
     - target: {fileID: 473494, guid: cb14c658c942c42e18bd03fc9b95bf61, type: 2}
       propertyPath: m_RootOrder
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11486044, guid: cb14c658c942c42e18bd03fc9b95bf61, type: 2}
+      propertyPath: heightChange
+      value: 8.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cb14c658c942c42e18bd03fc9b95bf61, type: 2}
