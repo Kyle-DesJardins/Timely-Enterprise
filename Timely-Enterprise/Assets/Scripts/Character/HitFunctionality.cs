@@ -9,11 +9,17 @@ public class HitFunctionality : MonoBehaviour {
     [HideInInspector]
     public string hittableTag;
 
+    [SerializeField]
+    private GameObject punchDetect;
+
     private Animator animator;
+    private BoxCollider2D punchDetectCollider;
 
     void Awake()
     {
         animator = GetComponent<Animator>();
+        punchDetectCollider = punchDetect.GetComponent<BoxCollider2D>();
+        punchDetectCollider.enabled = false;
     }
 
     void Update()
@@ -22,11 +28,33 @@ public class HitFunctionality : MonoBehaviour {
         {
             animator.SetTrigger("Punch");
         }
+        if(punchDetectCollider.enabled)
+        {
+            
+        }
     }
 
-    public void punch()
+    public void Punch()
     {
-        Debug.Log("Hit Test");
+        punchDetectCollider.enabled = true;
     }
+
+    public void EndPunch()
+    {
+        if (punchDetectCollider.enabled)
+        {
+            punchDetectCollider.enabled = false;
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if(punchDetectCollider.IsTouching(col.collider))
+        {
+            Destroy(col.gameObject);
+        }
+    }
+
+    
 
 }
