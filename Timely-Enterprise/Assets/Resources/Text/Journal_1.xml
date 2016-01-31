@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JournalEntries>
+	<Person>
+		<Entry date="01/01/01">
+			<Paragraph1>stuffs</Paragraph1>
+			<Paragraph2>Hi</Paragraph2>
+		</Entry>
+		<Entry date="01/01/05">
+			<Paragraph1></Paragraph1>
+			<Paragraph2></Paragraph2>
+		</Entry>
+	</Person>
+</JournalEntries>
