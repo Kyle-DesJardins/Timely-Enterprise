@@ -360,7 +360,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: -1266083641
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 604205a8d09f34ced9bb4c59f79b0e39, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3766,11 +3766,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 473494, guid: cb14c658c942c42e18bd03fc9b95bf61, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 13.76
+      value: -3.35
       objectReference: {fileID: 0}
     - target: {fileID: 473494, guid: cb14c658c942c42e18bd03fc9b95bf61, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -1.81
+      value: -1.97
       objectReference: {fileID: 0}
     - target: {fileID: 473494, guid: cb14c658c942c42e18bd03fc9b95bf61, type: 2}
       propertyPath: m_LocalPosition.z
@@ -3796,6 +3796,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 21217858, guid: cb14c658c942c42e18bd03fc9b95bf61, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300018, guid: e31e399b57e76472d90455483970eea3,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cb14c658c942c42e18bd03fc9b95bf61, type: 2}
   m_IsPrefabParent: 0
@@ -6469,7 +6474,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: -1266083641
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 604205a8d09f34ced9bb4c59f79b0e39, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7037,7 +7042,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: -1266083641
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 604205a8d09f34ced9bb4c59f79b0e39, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

@@ -7788,6 +7788,11 @@ Prefab:
       propertyPath: heightChange
       value: 8.4
       objectReference: {fileID: 0}
+    - target: {fileID: 21217858, guid: cb14c658c942c42e18bd03fc9b95bf61, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300006, guid: e89e710213d364c11bedce8ff5ce372c,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cb14c658c942c42e18bd03fc9b95bf61, type: 2}
   m_IsPrefabParent: 0
