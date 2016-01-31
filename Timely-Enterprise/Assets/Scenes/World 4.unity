@@ -401,7 +401,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 2026819047}
-  playerY: 0
+  moveUp: 0
+  speed: 5
+  heightChange: 10.2
 --- !u!81 &988971285
 AudioListener:
   m_ObjectHideFlags: 0

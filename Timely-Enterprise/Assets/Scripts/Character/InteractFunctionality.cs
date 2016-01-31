@@ -64,7 +64,8 @@ public class InteractFunctionality : MonoBehaviour {
 		if((interactableTag == "Stair") && interacte == true && Input.GetKeyDown(customKeyCode)) {
 			camera = GameObject.Find("Main Camera");
 			transform.position = new Vector3(transform.position.x, transform.position.y + 10.4f, transform.position.z);
-			//StartCoroutine(cameraJump());
+            //StartCoroutine(cameraJump());
+            camera.GetComponent<CameraMovement>().setTargetMovement();
 			camera.GetComponent<CameraMovement>().moveUp = true;
 		}
     }
