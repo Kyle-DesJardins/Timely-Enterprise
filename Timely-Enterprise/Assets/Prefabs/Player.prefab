@@ -31,6 +31,7 @@ GameObject:
   - 60: {fileID: 6054144}
   - 95: {fileID: 9508582}
   - 114: {fileID: 11422920}
+  - 114: {fileID: 11433192}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -46,6 +47,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 412998}
+  - 61: {fileID: 6134876}
   m_Layer: 0
   m_Name: KickDetect
   m_TagString: Untagged
@@ -272,6 +274,20 @@ PolygonCollider2D:
       - {x: -0.28, y: 0.79499996}
       - {x: -0.31, y: 0.705}
       - {x: -0.29999998, y: 0.695}
+--- !u!61 &6134876
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 192706}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
 --- !u!61 &6184272
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -317,6 +333,20 @@ MonoBehaviour:
   customKeyCode: space
   hittableTag: Enemy
   punchDetect: {fileID: 163672}
+--- !u!114 &11433192
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d04ae1be34b48d14fbe7fb35f3aad540, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customKeyCode: f
+  kickableTag: Enemy
+  kickDetect: {fileID: 192706}
 --- !u!114 &11466452
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -381,7 +411,15 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: customKeyCode
+      value: f
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: kickDetect
+      value: 
+      objectReference: {fileID: 192706}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 169864}
