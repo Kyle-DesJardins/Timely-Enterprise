@@ -26,7 +26,7 @@ public class GuardPace : MonoBehaviour {
 		transform.Translate(run, 0, 0);
 		Debug.Log(turned);
 
-		if(transform.position.x >= 10.8f && turned == false) {
+		if(transform.position.x >= 5f && turned == false) {
 			transform.rotation = Quaternion.Euler(0f, 0f, 0f);
 			turned = true;
 		}
