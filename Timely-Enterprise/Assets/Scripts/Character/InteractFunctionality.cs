@@ -15,6 +15,9 @@ public class InteractFunctionality : MonoBehaviour {
 	private Collider2D collider;
 	private Rigidbody2D rigidbody;
 	private Collider2D animateCollider;
+	private float teleporting;
+	private GameObject camera;
+	private float speed = 1;
 
 	private bool animating;
 	private float animTimer;
@@ -25,11 +28,13 @@ public class InteractFunctionality : MonoBehaviour {
 		collider = gameObject.GetComponent<Collider2D>();
 		rigidbody = gameObject.GetComponent<Rigidbody2D>();
 		animating = false;
+		//smooth = 0;
 	}
 
     void Update()
     {
-        if (Input.GetKeyDown(customKeyCode) && interacte == true)
+		interactableTag = (animateCollider.gameObject.tag);
+		if (Input.GetKeyDown(customKeyCode) && interacte == true && ((interactableTag == "Door")))
         {
             Debug.Log(transform.name + animateCollider + " Interact");
 			animating = true;
@@ -54,6 +59,13 @@ public class InteractFunctionality : MonoBehaviour {
 				animTimer = 0;
 				animateCollider.GetComponent<Animator>().SetInteger("Open", 0);
 			}
+		}
+
+		if((interactableTag == "Stair") && interacte == true && Input.GetKeyDown(customKeyCode)) {
+			camera = GameObject.Find("Main Camera");
+			transform.position = new Vector3(transform.position.x, transform.position.y + 10.4f, transform.position.z);
+			//StartCoroutine(cameraJump());
+			camera.GetComponent<CameraMovement>().moveUp = true;
 		}
     }
 
