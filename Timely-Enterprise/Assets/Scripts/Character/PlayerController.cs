@@ -9,8 +9,10 @@ public class PlayerController: MonoBehaviour {
 	private bool jumped;
 	private float jumpTimer;
 	private Rigidbody2D rigidbody;
+	private Renderer render;
 
 	void Start () {
+		render = gameObject.GetComponent<Renderer>();
 		jumped = false;
 		jumpTimer = 2.1f;
 		rigidbody = GetComponent<Rigidbody2D>();
@@ -31,7 +33,7 @@ public class PlayerController: MonoBehaviour {
 			jumped = true;
 			jumpTimer = 0;
 		}
-		else {
+		else if(render.enabled) {
 			if(Input.GetAxis("Horizontal") > 0) {
 				transform.rotation = Quaternion.Euler(0, 180, 0);
 				transform.Translate(Input.GetAxis("Horizontal") * -dampening, 0, 0);
