@@ -9,11 +9,45 @@ public class KickFunctionality : MonoBehaviour {
     [HideInInspector]
     public string kickableTag;
 
+    [SerializeField]
+    private GameObject kickDetect;
+
+    private Animator animator;
+    private BoxCollider2D kickDetectCollider;
+
+    void Awake()
+    {
+        animator = GetComponent<Animator>();
+        kickDetectCollider = kickDetect.GetComponent<BoxCollider2D>();
+        kickDetectCollider.enabled = false;
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(customKeyCode))
         {
-            Debug.Log(transform.name + " Kick");
+            animator.SetTrigger("Kick");
+        }
+    }
+
+    public void Kick()
+    {
+        kickDetectCollider.enabled = true;
+    }
+
+    public void EndKick()
+    {
+        if (kickDetectCollider.enabled)
+        {
+            kickDetectCollider.enabled = false;
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (kickDetectCollider.IsTouching(col.collider))
+        {
+            Destroy(col.gameObject);
         }
     }
 

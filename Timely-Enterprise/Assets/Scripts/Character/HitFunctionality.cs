@@ -28,10 +28,6 @@ public class HitFunctionality : MonoBehaviour {
         {
             animator.SetTrigger("Punch");
         }
-        if(punchDetectCollider.enabled)
-        {
-            
-        }
     }
 
     public void Punch()
