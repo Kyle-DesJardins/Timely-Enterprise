@@ -2478,9 +2478,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: -0.49282324, y: -17.150446}
+  m_Offset: {x: -0.52185345, y: -17.150446}
   serializedVersion: 2
-  m_Size: {x: 0.014349524, y: 34.85948}
+  m_Size: {x: 0.07241018, y: 34.85948}
 --- !u!1 &547864442
 GameObject:
   m_ObjectHideFlags: 0
@@ -4605,9 +4605,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: -0.49282345, y: -8.860875}
+  m_Offset: {x: -0.5384423, y: -8.860875}
   serializedVersion: 2
-  m_Size: {x: 0.014349524, y: 51.438637}
+  m_Size: {x: 0.10558728, y: 51.438637}
 --- !u!1 &985588937
 GameObject:
   m_ObjectHideFlags: 0
@@ -6258,9 +6258,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: -0.49282345, y: -8.860875}
+  m_Offset: {x: -0.44858706, y: -8.860875}
   serializedVersion: 2
-  m_Size: {x: 0.014349524, y: 51.438637}
+  m_Size: {x: 0.10282336, y: 51.438637}
 --- !u!1 &1251141172 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 183114, guid: 988cbc34b4fb0452eab8b73af692b218, type: 2}
@@ -7139,7 +7139,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 436262, guid: 988cbc34b4fb0452eab8b73af692b218, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 9.83
+      value: 5.59
       objectReference: {fileID: 0}
     - target: {fileID: 436262, guid: 988cbc34b4fb0452eab8b73af692b218, type: 2}
       propertyPath: m_LocalPosition.y
@@ -7174,6 +7174,14 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: 5db0d28a7354f4f34bc50cbee21dde71,
         type: 3}
+    - target: {fileID: 11487340, guid: 988cbc34b4fb0452eab8b73af692b218, type: 2}
+      propertyPath: left
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 11487340, guid: 988cbc34b4fb0452eab8b73af692b218, type: 2}
+      propertyPath: right
+      value: -6.39
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6013224, guid: 988cbc34b4fb0452eab8b73af692b218, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 988cbc34b4fb0452eab8b73af692b218, type: 2}
@@ -9759,9 +9767,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: -0.49282345, y: -17.088804}
+  m_Offset: {x: -0.4472041, y: -17.088804}
   serializedVersion: 2
-  m_Size: {x: 0.014349524, y: 34.98276}
+  m_Size: {x: 0.105587095, y: 34.98276}
 --- !u!1 &1937933135
 GameObject:
   m_ObjectHideFlags: 0

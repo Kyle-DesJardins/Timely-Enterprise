@@ -125,9 +125,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: -0.49140102, y: 7.736411}
+  m_Offset: {x: -0.44407058, y: 7.736411}
   serializedVersion: 2
-  m_Size: {x: 0.017204987, y: 16.472818}
+  m_Size: {x: 0.11186675, y: 16.472818}
 --- !u!1 &57069825
 GameObject:
   m_ObjectHideFlags: 0
@@ -461,9 +461,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: -0.49140134, y: 23.005968}
+  m_Offset: {x: -0.5351381, y: 23.005968}
   serializedVersion: 2
-  m_Size: {x: 0.017204987, y: 15.364165}
+  m_Size: {x: 0.10467846, y: 15.364165}
 --- !u!1 &170606793
 GameObject:
   m_ObjectHideFlags: 0
@@ -1225,9 +1225,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: -0.49140096, y: 7.76747}
+  m_Offset: {x: -0.5331633, y: 7.76747}
   serializedVersion: 2
-  m_Size: {x: 0.017204987, y: 16.534937}
+  m_Size: {x: 0.10072961, y: 16.534937}
 --- !u!1 &252927514
 GameObject:
   m_ObjectHideFlags: 0
@@ -2164,7 +2164,7 @@ Transform:
   m_LocalScale: {x: 1.2395825, y: 1.2395825, z: 1.2395825}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
 --- !u!1 &661878687
 GameObject:
   m_ObjectHideFlags: 0
@@ -5091,9 +5091,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: -0.49140105, y: 15.094027}
+  m_Offset: {x: -0.4593835, y: 15.094027}
   serializedVersion: 2
-  m_Size: {x: 0.017204987, y: 31.18805}
+  m_Size: {x: 0.081240445, y: 31.18805}
 --- !u!1 &1423078426
 GameObject:
   m_ObjectHideFlags: 0
@@ -5527,9 +5527,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: -0.49140105, y: 15.094027}
+  m_Offset: {x: -0.43989494, y: 15.094027}
   serializedVersion: 2
-  m_Size: {x: 0.017204987, y: 31.18805}
+  m_Size: {x: 0.12021721, y: 31.18805}
 --- !u!1 &1558940113
 GameObject:
   m_ObjectHideFlags: 0
@@ -6485,9 +6485,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: -0.49140105, y: 15.094027}
+  m_Offset: {x: -0.5234188, y: 15.094027}
   serializedVersion: 2
-  m_Size: {x: 0.017204987, y: 31.18805}
+  m_Size: {x: 0.08124054, y: 31.18805}
 --- !u!1 &1825729553
 GameObject:
   m_ObjectHideFlags: 0

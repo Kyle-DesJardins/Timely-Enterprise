@@ -9,6 +9,11 @@ public class GuardPace : MonoBehaviour {
 	private float run;
 	private bool turned;
 
+	[SerializeField]
+	private float left;
+	[SerializeField]
+	private float right;
+
 	void Start () {
 		turned = false;
 		Physics2D.IgnoreCollision(GetComponent<Collider2D>(), GetComponent<Collider2D>());
@@ -25,11 +30,11 @@ public class GuardPace : MonoBehaviour {
 
 		transform.Translate(run, 0, 0);
 
-		if(transform.position.x >= 5f && turned == false) {
+		if(transform.position.x >= left && turned == false) {
 			transform.rotation = Quaternion.Euler(0f, 0f, 0f);
 			turned = true;
 		}
-		else if (transform.position.x <= -8.38f && turned == true) {
+		else if (transform.position.x <= right && turned == true) {
 			transform.rotation = Quaternion.Euler(0f, 180f, 0f);
 			turned = false;
 		}
