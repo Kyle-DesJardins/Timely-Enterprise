@@ -30,11 +30,11 @@ public class GuardPace : MonoBehaviour {
 
 		transform.Translate(run, 0, 0);
 
-		if(transform.position.x >= right && turned == false) {
+		if(transform.position.x >= left && turned == false) {
 			transform.rotation = Quaternion.Euler(0f, 0f, 0f);
 			turned = true;
 		}
-		else if (transform.position.x <= left && turned == true) {
+		else if (transform.position.x <= right && turned == true) {
 			transform.rotation = Quaternion.Euler(0f, 180f, 0f);
 			turned = false;
 		}
