@@ -265,6 +265,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walk: 0
   run: -0.1
+  left: 5
+  right: 0
 --- !u!114 &11492290
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -312,7 +314,11 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: left
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 183114}
