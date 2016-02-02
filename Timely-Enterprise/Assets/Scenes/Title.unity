@@ -794,13 +794,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   music: {fileID: 751977470}
   audio:
-  - {fileID: 8300000, guid: f995650a53e0f4d92b055d42bfbb9760, type: 3}
+  - {fileID: 8300000, guid: 1993675655661490193bd30f6899cdc6, type: 3}
   - {fileID: 8300000, guid: 0a59eda2add50435a8615bbfb3d990b7, type: 3}
   - {fileID: 8300000, guid: c10f5c0c9b0f14202a8121caae981b5e, type: 3}
   - {fileID: 8300000, guid: 0204c3987a6534d1d83833d70aab69ce, type: 3}
   - {fileID: 8300000, guid: 09c65af19ec264731a94c894aaedc2e1, type: 3}
   - {fileID: 8300000, guid: f995650a53e0f4d92b055d42bfbb9760, type: 3}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 1993675655661490193bd30f6899cdc6, type: 3}
   - {fileID: 8300000, guid: 7ce157572b9e04f48b5fe57ed0a07ca7, type: 3}
   - {fileID: 8300000, guid: a78f2c1f5aa9b4a24b55374b58db31db, type: 3}
   - {fileID: 8300000, guid: aadbef2cd61774070b2bf9cc3cd122b0, type: 3}

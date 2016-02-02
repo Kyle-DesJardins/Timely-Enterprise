@@ -26,8 +26,14 @@ public class AudioControllers : MonoBehaviour {
 		sliderSFX.onValueChanged.AddListener(ControlSFX);
 	}
 
-	void OnHit() {
-		music.clip = audio[11];
+	public void OnDoor() {
+		sfx.clip = audio[9];
+		sfx.Play();
+	}
+
+	public void OnDie() {
+		sfx.clip = audio[15];
+		sfx.Play();
 	}
 
 	void OnLevelWasLoaded(int level) {
