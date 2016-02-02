@@ -14,12 +14,15 @@ public class HitFunctionality : MonoBehaviour {
 
     private Animator animator;
     private BoxCollider2D punchDetectCollider;
+	private GameObject audioController;
+
 
     void Awake()
     {
         animator = GetComponent<Animator>();
         punchDetectCollider = punchDetect.GetComponent<BoxCollider2D>();
         punchDetectCollider.enabled = false;
+		audioController = GameObject.Find("Audio Controller");
     }
 
     void Update()
@@ -27,6 +30,7 @@ public class HitFunctionality : MonoBehaviour {
         if (Input.GetKeyDown(customKeyCode))
         {
             animator.SetTrigger("Punch");
+			Punch();
         }
     }
 
@@ -48,6 +52,9 @@ public class HitFunctionality : MonoBehaviour {
         if(punchDetectCollider.IsTouching(col.collider))
         {
             Destroy(col.gameObject);
+			if(audioController != null) {
+				audioController.GetComponent<AudioControllers>().OnDie();
+			}
         }
     }
 

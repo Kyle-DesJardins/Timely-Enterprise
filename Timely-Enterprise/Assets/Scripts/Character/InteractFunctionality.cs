@@ -25,6 +25,7 @@ public class InteractFunctionality : MonoBehaviour {
 
 	private bool animating;
 	private float animTimer;
+	private GameObject audioController;
 
 	void Awake() {
 		interacte = false;
@@ -34,6 +35,7 @@ public class InteractFunctionality : MonoBehaviour {
 		animating = false;
         animateCollider = null;
         camera = GameObject.Find("Main Camera");
+		audioController = GameObject.Find("Audio Controller");
         //smooth = 0;
     }
 
@@ -48,6 +50,9 @@ public class InteractFunctionality : MonoBehaviour {
             Debug.Log(transform.name + animateCollider + " Interact");
 			animating = true;
 			animateCollider.GetComponent<Animator>().SetInteger("Open", 1);
+			if(audioController != null) {
+				audioController.GetComponent<AudioControllers>().OnDoor();
+			}
 		}
 
 		if(animating == true) {
@@ -67,6 +72,9 @@ public class InteractFunctionality : MonoBehaviour {
 				animating = false;
 				animTimer = 0;
 				animateCollider.GetComponent<Animator>().SetInteger("Open", 0);
+				if(audioController != null) {
+					audioController.GetComponent<AudioControllers>().OnDoor();
+				}
 			}
 		}
 
