@@ -30,7 +30,6 @@ public class HitFunctionality : MonoBehaviour {
         if (Input.GetKeyDown(customKeyCode))
         {
             animator.SetTrigger("Punch");
-			Punch();
         }
     }
 

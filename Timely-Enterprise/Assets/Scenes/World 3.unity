@@ -5310,9 +5310,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: -0.4593835, y: 15.094027}
+  m_Offset: {x: -0.4593835, y: 22.84381}
   serializedVersion: 2
-  m_Size: {x: 0.081240445, y: 31.18805}
+  m_Size: {x: 0.0812404, y: 15.688485}
 --- !u!1 &1423078426
 GameObject:
   m_ObjectHideFlags: 0

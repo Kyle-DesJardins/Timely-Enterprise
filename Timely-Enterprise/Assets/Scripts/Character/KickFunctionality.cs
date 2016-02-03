@@ -27,7 +27,6 @@ public class KickFunctionality : MonoBehaviour {
         if (Input.GetKeyDown(customKeyCode))
         {
             animator.SetTrigger("Kick");
-			Kick();
         }
     }
 
